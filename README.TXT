@@ -17,3 +17,7 @@ This project is often used after studying the "shapes" project. It
 adds a class to those ones in "shapes". That class (named "Picture")
 uses the shapes to draw a picture. It can be used to experiment with 
 modifying source code.
+
+**************** Anwsers *****************
+Q1: I think it fills in the color of the picture based on the code and along with that it removes the color in the same fashion.
+
