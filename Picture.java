@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Circle sun2;
+    private Person person;
     private boolean drawn;
     private boolean sunset;
 
@@ -29,6 +30,7 @@ public class Picture
         roof = new Triangle();  
         sun = new Circle();
         sun2 = new Circle();
+        person = new Person();
         drawn = false;
     }
 
@@ -60,6 +62,7 @@ public class Picture
             sun.changeSize(80);
             sun.makeVisible();
             sun2. makeVisible();
+            person.makeVisible();
             drawn = true;
         }
     }
@@ -72,6 +75,7 @@ public class Picture
         if(!sunset) {
         
             sun. slowMoveVertical(300);
+            person.slowMoveVertical(75);
 
         }
     }
